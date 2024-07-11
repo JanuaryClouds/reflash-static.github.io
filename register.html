@@ -23,13 +23,13 @@
                     <a class="nav-link" href="about.html">About</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link active" href="contact.html">Contact</a>
+                    <a class="nav-link" href="contact.html">Contact</a>
                 </li>
             </ul>
             <div class="my-2 my-lg-0">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="register.html">Register</a>
+                        <a class="nav-link active" href="register.html">Register</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="login.html">Login</a>
@@ -44,13 +44,35 @@
     <!--About-->
     <div class="container-xxl" style="padding-left: 128px; padding-right: 128px; padding-top: 64px;">
         <div class="row" style="margin-bottom: 64px;">
-            <div class="col align-content-center">
-                <h1 style="font-weight: 600;">Contact</h1>
-                <p>Need help with something?</p>
-                <p class="col" style="margin-left: -16px; margin-top: 64px; font-size: 24px;">sample@email.com</p>
+            <div class="col-8">
+                <h1 style="font-weight: 700;">Register</h1>
+                <p>You are one step away!</p>
+                <img src="./src/img/undraw_sign_up_n6im.svg" alt="Register" style="width: 397px; height: 285px;">
             </div>
-            <div class="col">
-                <img src="./../../img/contact.svg" alt="About" style="width: 572px; height: 414px;">
+            <div class="col-4 align-content-start"
+                style="background-color: #f4f4f4; border-radius: 24px; padding: 24px; box-shadow: 0px 5px 0px rgba(128, 128, 128, 0.25);">
+                <form>
+                    <div class="form-group">
+                        <label for="form-Name-Input">Full Name (First Name Last Name):</label>
+                        <input type="text" class="form-control" id="form-Name-Input" placeholder="Juan Dela Cruz">
+                    </div>
+                    <div class="form-group">
+                        <label for="form-Email-Input">Email:</label>
+                        <input type="text" class="form-control" id="form-Email-Input"
+                            placeholder="juandelacruz@gmail.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="form-Password-Input">Password:</label>
+                        <input type="password" class="form-control" id="form-Password-Input" placeholder="">
+                    </div>
+                    <div class="form-group">
+                        <label for="form-Password-Input">Confirm Password:</label>
+                        <input type="password" class="form-control" id="form-Password-Input" placeholder="">
+                    </div>
+                    <button type="submit" class="btn text-white"
+                        style="background-color: #8254BC; width: 100%; border-radius: 24px; margin-top: 24px;">Sign
+                        Up</button>
+                </form>
             </div>
         </div>
     </div>
